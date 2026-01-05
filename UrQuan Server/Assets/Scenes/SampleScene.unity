@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &393946945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 393946947}
+  - component: {fileID: 393946946}
+  - component: {fileID: 393946948}
+  - component: {fileID: 393946949}
+  m_Layer: 0
+  m_Name: NetworkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &393946946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393946945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb907e168401d34b8b9582c37f80e67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: 25565
+  maxClientCount: 8
+--- !u!4 &393946947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393946945}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &393946948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393946945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88ef361bc4dbbe489ae32bf88612c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 1530570481601941930, guid: e2d677d8dba86e340bac2fbf741f1bcf, type: 3}
+  gameState: 0
+  players: []
+  seed: 0
+  objectCount: 0
+  mapRadius: 0
+  bulletPrefabs:
+  - {fileID: 1822851881720236815, guid: 7132979ee1ff10e4681b318b560b4968, type: 3}
+  - {fileID: 1822851881720236815, guid: 4ce3c2c2cfd54304cbea56ae7f69bdd2, type: 3}
+  - {fileID: 3631312956061806019, guid: 850b025235d866e49b83894f4efef8f1, type: 3}
+  - {fileID: 3631312956061806019, guid: 57fbb8c06e2f72248b9d3073b21b9282, type: 3}
+  - {fileID: 1822851881720236815, guid: 53ddc467337ef1c42a327da0ac40abb0, type: 3}
+  - {fileID: 1822851881720236815, guid: 489199d2476eafa4a927177865793ee7, type: 3}
+  - {fileID: 1822851881720236815, guid: 004f781cd0e9b4049825c472cfdc3554, type: 3}
+  - {fileID: 7799177919688711644, guid: 1e7ef4d4b663f124d9ea5720d2e5858c, type: 3}
+  - {fileID: 7799177919688711644, guid: bdaa5867b8f17f84791e9b7a20742977, type: 3}
+  - {fileID: 1822851881720236815, guid: c60644776b7b63e4aa437748115b3dba, type: 3}
+  - {fileID: 1822851881720236815, guid: 64dbc4859bfb09b4a86079886ef937f3, type: 3}
+  - {fileID: 7799177919688711644, guid: 5c6707072732f90499a1e08309ffe0e7, type: 3}
+  ships:
+  - model: {fileID: 0}
+    offset: {x: 0, y: 0, z: 0}
+    speed: 0
+    agility: 0
+    health: 0
+    battery: 0
+    batteryRegen: 0
+    shipAttack: 0
+  - model: {fileID: 107655342759490576, guid: c18f19b3f18dfa7468797be46cbdc65e, type: 3}
+    offset: {x: 0, y: 1.04, z: 0.358}
+    speed: 2
+    agility: 0.012
+    health: 6
+    battery: 4
+    batteryRegen: 0.5
+    shipAttack: 0
+  - model: {fileID: 9221895104795540267, guid: 33fcdf6d35962cc4aa3679023d54c537, type: 3}
+    offset: {x: 0, y: 0, z: -0.48}
+    speed: 1
+    agility: 0.01
+    health: 8
+    battery: 24
+    batteryRegen: 0.275
+    shipAttack: 1
+  - model: {fileID: 9221895104795540267, guid: 0f33c389de730ac45a4e9120cc9c8ea2, type: 3}
+    offset: {x: 0, y: -3.58, z: 0.62}
+    speed: 1.85
+    agility: 0.01
+    health: 36
+    battery: 10
+    batteryRegen: 0.7
+    shipAttack: 4
+  - model: {fileID: 9221895104795540267, guid: b90f822aecef2444eab7602b98c89a01, type: 3}
+    offset: {x: 0, y: 0, z: -0.48}
+    speed: 0.8
+    agility: 0.009
+    health: 18
+    battery: 18
+    batteryRegen: 0.45
+    shipAttack: 6
+  - model: {fileID: 9221895104795540267, guid: 55de98c249fe4234c91eada13d431294, type: 3}
+    offset: {x: 0, y: -1.88, z: 0}
+    speed: 2.25
+    agility: 0.0125
+    health: 6
+    battery: 20
+    batteryRegen: 0.6
+    shipAttack: 8
+  - model: {fileID: 9221895104795540267, guid: e9fbb50406e9d0042a2adc9382d3f574, type: 3}
+    offset: {x: 0, y: 0, z: 0}
+    speed: 2.25
+    agility: 0.0125
+    health: 42
+    battery: 42
+    batteryRegen: 0.6
+    shipAttack: 9
+  - model: {fileID: 9221895104795540267, guid: 4c2d2e38a984f8c4e8cac2d29ac5c5ef, type: 3}
+    offset: {x: 0, y: 0, z: 0}
+    speed: 0.75
+    agility: 0.003
+    health: 42
+    battery: 42
+    batteryRegen: 0.65
+    shipAttack: 9
+  missiles: []
+--- !u!114 &393946949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393946945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 442f19c2c74829749b4b46720088c5d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroidPrefab: {fileID: 8144125205365929092, guid: 3ebd688de66030846bb283317e765340, type: 3}
+  metalPrefab: {fileID: 8144125205365929092, guid: a442f33c6888dbc478319d547ed9ee53, type: 3}
+  mapParent: {fileID: 1523981545}
+--- !u!1 &1523981544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1523981545}
+  m_Layer: 0
+  m_Name: Map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1523981545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523981544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.240156, y: -1.7228811, z: -0.4285997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
