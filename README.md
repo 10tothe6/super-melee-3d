@@ -8,6 +8,12 @@ Simply download the .zip files from the latest version and extract them.
 ## Starting A Server:
 Run the .exe file for the server, then you can run the .exe file for the client and connect to it using your IP address. There is no limit on the number of players per game, connect as many clients as you want.
 
+## Credits:
+- 3D models: Maximilian McDiarmid
+- Programming: Maximilian McDiarmid
+- 2D Sprites: Star Control II
+- Music/Audio: Star Control II
+
 ## Screenshots:
 ![alt text](https://github.com/10tothe6/super-melee-3d/blob/master/UrQuan%20Client/img/sc0.png?)
 ***
@@ -18,9 +24,3 @@ Run the .exe file for the server, then you can run the .exe file for the client 
 ![alt text](https://github.com/10tothe6/super-melee-3d/blob/master/UrQuan%20Client/img/sc3.png?)
 ***
 ![alt text](https://github.com/10tothe6/super-melee-3d/blob/master/UrQuan%20Client/img/sc4.png?)
-
-## Credits:
-3D models: Maximilian McDiarmid
-Programming: Maximilian McDiarmid
-2D Sprites: Star Control II
-Music/Audio: Star Control II
